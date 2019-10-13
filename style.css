@@ -1,6 +1,64 @@
-ul, li {
+li {
     list-style-type: none;
+    
 }
+ol {
+    padding-left:0;
+}
+ol li {
+    padding-bottom: 5px;
+}
+
 body {
+    background-image: url("51436-6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header {
+    height:20vh;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    position: absolute;
+    top: 3%;
+    right: 2%;
+}
+
+main {
     display: flex;
+    flex-direction: row;
+    flex-wrap: none;
+    margin:1%;
+}
+
+aside {
+
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.466);
+    padding: 5px;
+    padding-top:4vh;
+    margin-right:1vw;
+    height:75vh;
+    background-color: rgba(255, 255, 255, 0.692);
+}
+
+#experience {
+    height:75vh;
+    max-width:55vw;
+    padding-left:1vw;
+    padding-top:5vh;
+    background-color: rgba(255, 255, 255, 0.692);
+}
+#competences {
+    height:75vh;
+    margin-right:1vw;
+    padding-left:1vw;
+    padding-top:5vh;
+    background-color: rgba(255, 255, 255, 0.692);
+}
+footer {
+    height:2vh;
 }
