@@ -7,19 +7,26 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CV</title>
     <script src="https://kit.fontawesome.com/1d2d45eb41.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
   
 
 </head>
 
 <body>
+        <div class="containerflag">
+                <img class="flag" src="france.svg" onclick="display(true)"/>
+                <img class="flag" src="uk.svg" onclick="display(false)"/>
+            </div>
+    <div id="frenchCV">
     <header>
         <h1>Développeur Fullstack</h1>
-        <img src="./10ansEuratech-AnoukDesury-PhotoCV-70.jpg" height=150 alt="Photo de profil" />
     </header>
     <main>
             <aside>
                     <section>
+                        <img src="./10ansEuratech-AnoukDesury-PhotoCV-70.jpg" height=150 alt="Photo de profil" />
                         <h3>Lussiez Florian</h3>
                         <p>
                             113 bis rue Turgot<br>
@@ -57,12 +64,12 @@
                     </section>
                 </aside>
         <section id="competences">
-            <h2>Compétences</h2>
+            <h2><i class="fas fa-tools"></i> Compétences</h2>
             <ul>
                 <li>Technologies Web
                     <ul>
                         <li>HTML5, CSS3, JavaScript</li>
-                        <li>React</li>
+                        <li>React, Vue.js</li>
                         <li>JQuery</li>
                         <li>Bootstrap</li>
                         <li>Node.js</li>
@@ -79,6 +86,7 @@
                     <ul>
                         <li>Visual Studio Code</li>
                         <li>Postman</li>
+                        <li>Figma</li>
                     </ul>
                 </li>
                 <li>Systèmes d'exploitation
@@ -100,14 +108,14 @@
 
         </section>
         <section id="experience">
-            <h2>Formation</h2>
+            <h2><i class="fas fa-book"></i> Formation</h2>
             <ol>
                 <li>2019    Formation <strong>Développeur Fullstack </strong>, AFPA Euratechnologies, Lille</li>
                 <li>2013    Master <strong>Psychologie Travail et santé</strong>, Université Catholique, Lille</li>
             </ol>
 
         
-            <h2>Expérience professionnelle</h2>
+            <h2><i class="fas fa-suitcase"></i> Expérience professionnelle</h2>
             <ol>
                 <li>2015 <strong>Conduite du changement et accompagnement managérial</strong> au sein de la Direction Ingénierie et Projets de SNCF Réseau, Saint-Denis, 5 mois</li>
                 <li>2013 <strong>Conseiller insertion</strong> sur les sessions du programme régional d’orientation collective Appui à l’Élaboration de Projet Professionnel au sein d’Instep Abelia, 3 mois</li>
@@ -118,8 +126,116 @@
 
         </section>
     </main>
-    
-    <footer></footer>
+</div>
+<div id="englishCV" class="hidden">
+        <header>
+                <h1>Fullstack developer</h1>
+            </header>
+            <main>
+                    <aside>
+                            <section>
+                                <img src="./10ansEuratech-AnoukDesury-PhotoCV-70.jpg" height=150 alt="Photo de profil" />
+                                <h3>Lussiez Florian</h3>
+                                <p>
+                                    113 bis rue Turgot<br>
+                                    59000 Lille
+                                </p>
+                                <p>
+                                        <i class="fas fa-phone"></i>
+                                        06.18.34.73.08
+                                </p>
+                                <p>
+                                        <i class="fas fa-at"></i>
+                                        florianlussiez@gmail.com
+                                </p>
+                                <p>31 years</p>
+                                
+                    
+                            </section>
+                            <section>
+                                <h3>Languages</h3>
+                                <p>
+                                    English: fluent </br>
+                                    Spanish: basics
+                                </p>
+                    
+                            </section>
+                            <section>
+                                <h3>Hobbies</h3>
+                                <p>
+                                    Trumpeter (20 years of pratice)<br>
+                                    Reading in french and english languages <br>
+                                    Traveling and mountain hiking
+                    
+                                </p>
+                    
+                            </section>
+                        </aside>
+                <section id="competences">
+                    <h2><i class="fas fa-tools"></i> Skills</h2>
+                    <ul>
+                        <li>Web technology
+                            <ul>
+                                <li>HTML5, CSS3, JavaScript</li>
+                                <li>React, Vue.js</li>
+                                <li>JQuery</li>
+                                <li>Bootstrap</li>
+                                <li>Node.js</li>
+                                <li>Firebase</li>
+                            </ul>
+                        </li>
+                        <li>Database management system
+                            <ul>
+                                <li>MongoDB</li>
+                                <li>MySQL</li>
+                            </ul>
+                        </li>
+                        <li>Softwares
+                            <ul>
+                                <li>Visual Studio Code</li>
+                                <li>Postman</li>
+                                <li>Figma</li>
+                            </ul>
+                        </li>
+                        <li>Operating systems
+                            <ul>
+                                <li>Windows</li>
+                                <li>GNU/Linux</li>
+                            </ul>
+                        </li>
+                        <li>Methodology
+                            <ul>
+                                <li>Use of Trello</li>
+                                <li>Version-control with Git & Github</li>
+                            </ul>
+                        </li>
+                        <li>Ergonomics</li>
+                        <li>Algorithmic</li>
+                        <li>Analysis of positions and organizations</li>
+                    </ul>
+        
+                </section>
+                <section id="experience">
+                    <h2><i class="fas fa-book"></i> Professional training</h2>
+                    <ol>
+                        <li>2019    <strong>Fullstack Developer</strong>, AFPA Euratechnologies, Lille</li>
+                        <li>2013    Master <strong>Psychology: Work and Health</strong>, Université Catholique, Lille</li>
+                    </ol>
+        
+                
+                    <h2><i class="fas fa-suitcase"></i> Professional experience</h2>
+                    <ol>
+                        <li>2015 <strong>Change management and managerial support</strong> in Engineering and Projects Management SNCF Réseau, Saint-Denis, 5 months</li>
+                        <li>2013 <strong>Insertion advisor</strong> on the sessions of the Regional Collective Orientation Program "Support for Professional Project Development" in Instep Abelia, 3 months</li>
+                        <li>2012 <strong>Psychosocial risk assessment </strong> in a children's home, Lille, 4 months</li>
+                        <li>2010 Co-construction of an intervention methodology on psychic suffering at work, Promocom, Lille, 3 months</li>
+                        <li>2009 Skills Assessment Advisor, Lille Sud Insertion, 1 month</li>
+                    </ol>
+        
+                </section>
+            </main>
+
+</div>
 
 </body>
 

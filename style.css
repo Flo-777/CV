@@ -1,5 +1,68 @@
+:root {
+    --maincolor: rgb(63, 168, 3);
+}
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    padding-top:5px;
+    padding-bottom:1px;
+    height:7vh;
+
+    
+}
+body {
+    background-color: rgba(128, 128, 128, 0.068);
+
+}
+
+body {
+    position: relative;
+    margin:0;
+}
+h1 {
+    margin: 0;
+    color: var(--maincolor);
+    text-align: center;
+}
+h2 {
+    color: var(--maincolor);
+
+}
+h3 {
+    color: var(--maincolor);
+
+}
+img {
+    position: relative;
+    left: 5.2vw;
+    border-radius: 50%;
+    border: 1px solid rgba(128, 128, 128, 0.068);
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: none;
+    margin:0.5%;
+}
+
+aside {
+/*     
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.466); */
+    padding: 7px;
+    padding-top:2vh;
+    margin-right:1vw;
+    height:85vh;
+    background-color: rgba(255, 255, 255, 0.692);
+}
+section:hover {
+    transform: scale(1.01);
+}
 li {
     list-style-type: none;
+    margin:4px;
     
 }
 ol {
@@ -9,56 +72,33 @@ ol li {
     padding-bottom: 5px;
 }
 
-/* body {
-    background-image: url("51436-6.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
-header {
-    height:20vh;
-}
-
-h1 {
-    text-align: center;
-}
-
-img {
-    position: absolute;
-    top: 3%;
-    right: 2%;
-}
-
-main {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: none;
-    margin:1%;
-}
-
-aside {
-
-    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.466);
-    padding: 5px;
-    padding-top:4vh;
-    margin-right:1vw;
-    height:75vh;
-    background-color: rgba(255, 255, 255, 0.692);
-}
-
 #experience {
-    height:75vh;
+    height:86vh;
     max-width:55vw;
     padding-left:1vw;
-    padding-top:5vh;
+    padding-top:2vh;
     background-color: rgba(255, 255, 255, 0.692);
 }
 #competences {
-    height:75vh;
+    height:86vh;
     margin-right:1vw;
     padding-left:1vw;
-    padding-top:5vh;
+    padding-top:2vh;
     background-color: rgba(255, 255, 255, 0.692);
 }
 footer {
     height:2vh;
+}
+.flag {
+    
+    width:1.5vw;
+    height:auto;
+}
+.containerflag {
+    position:absolute;
+    top:1.5vh;
+    right:6vw;
+}
+.hidden {
+    display: none;
 }
