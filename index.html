@@ -14,7 +14,7 @@
 
 </head>
 
-<body>
+<body >
         <div class="containerflag">
                 <img class="flag" src="france.svg" onclick="display(true)"/>
                 <img class="flag" src="uk.svg" onclick="display(false)"/>
@@ -23,14 +23,13 @@
     <header>
         <h1>Développeur Fullstack</h1>
     </header>
-    <main>
-            <aside>
+    <main  ondrop="drop(event)" ondragover="allowDrop(event)">
+            <aside draggable="true" ondragstart="drag(event)">
                     <section>
                         <img src="./10ansEuratech-AnoukDesury-PhotoCV-70.jpg" height=150 alt="Photo de profil" />
                         <h3>Lussiez Florian</h3>
                         <p>
-                            113 bis rue Turgot<br>
-                            59000 Lille
+                           Lille
                         </p>
                         <p>
                                 <i class="fas fa-phone"></i>
@@ -63,7 +62,7 @@
             
                     </section>
                 </aside>
-        <section id="competences">
+        <section id="competences" draggable="true" ondragstart="drag(event)">
             <h2><i class="fas fa-tools"></i> Compétences</h2>
             <ul>
                 <li>Technologies Web
@@ -107,10 +106,10 @@
             </ul>
 
         </section>
-        <section id="experience">
+        <section id="experience" draggable="true" ondragstart="drag(event)">
             <h2><i class="fas fa-book"></i> Formation</h2>
             <ol>
-                <li>2019    Formation <strong>Développeur Fullstack </strong>, AFPA Euratechnologies, Lille</li>
+                <li><strong>2019   Formation Développeur Fullstack </strong>, AFPA Euratechnologies, Lille</li>
                 <li>2013    Master <strong>Psychologie Travail et santé</strong>, Université Catholique, Lille</li>
             </ol>
 
@@ -131,14 +130,13 @@
         <header>
                 <h1>Fullstack developer</h1>
             </header>
-            <main>
-                    <aside>
+            <main ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <aside draggable="true" ondragstart="drag(event)">
                             <section>
                                 <img src="./10ansEuratech-AnoukDesury-PhotoCV-70.jpg" height=150 alt="Photo de profil" />
                                 <h3>Lussiez Florian</h3>
                                 <p>
-                                    113 bis rue Turgot<br>
-                                    59000 Lille
+                                    Lille
                                 </p>
                                 <p>
                                         <i class="fas fa-phone"></i>
@@ -171,7 +169,7 @@
                     
                             </section>
                         </aside>
-                <section id="competences">
+                <section id="skills" draggable="true" ondragstart="drag(event)">
                     <h2><i class="fas fa-tools"></i> Skills</h2>
                     <ul>
                         <li>Web technology
@@ -215,18 +213,18 @@
                     </ul>
         
                 </section>
-                <section id="experience">
+                <section id="experiences" draggable="true" ondragstart="drag(event)">
                     <h2><i class="fas fa-book"></i> Professional training</h2>
                     <ol>
-                        <li>2019    <strong>Fullstack Developer</strong>, AFPA Euratechnologies, Lille</li>
+                        <li><strong>2019    Fullstack Developer</strong>, AFPA Euratechnologies, Lille</li>
                         <li>2013    Master <strong>Psychology: Work and Health</strong>, Université Catholique, Lille</li>
                     </ol>
         
                 
                     <h2><i class="fas fa-suitcase"></i> Professional experience</h2>
                     <ol>
-                        <li>2015 <strong>Change management and managerial support</strong> in Engineering and Projects Management SNCF Réseau, Saint-Denis, 5 months</li>
-                        <li>2013 <strong>Insertion advisor</strong> on the sessions of the Regional Collective Orientation Program "Support for Professional Project Development" in Instep Abelia, 3 months</li>
+                        <li>2015 <strong>Change management and executive support</strong> in Engineering and Projects Direction at SNCF Réseau, Saint-Denis, 5 months</li>
+                        <li>2013 <strong>Advisor</strong> in Support for Professional Project Development in Instep Abelia, 3 months</li>
                         <li>2012 <strong>Psychosocial risk assessment </strong> in a children's home, Lille, 4 months</li>
                         <li>2010 Co-construction of an intervention methodology on psychic suffering at work, Promocom, Lille, 3 months</li>
                         <li>2009 Skills Assessment Advisor, Lille Sud Insertion, 1 month</li>

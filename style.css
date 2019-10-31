@@ -6,9 +6,9 @@
 }
 
 header {
-    padding-top:5px;
+    padding-top:0.5vh;
     padding-bottom:1px;
-    height:7vh;
+    height:5vh;
 
     
 }
@@ -46,6 +46,7 @@ main {
     flex-direction: row;
     flex-wrap: none;
     margin:0.5%;
+    padding:1%;
 }
 
 aside {
@@ -72,18 +73,18 @@ ol li {
     padding-bottom: 5px;
 }
 
-#experience {
-    height:86vh;
+#experience, #experiences {
+    height:87.5vh;
     max-width:55vw;
     padding-left:1vw;
-    padding-top:2vh;
+    padding-top:0.5vh;
     background-color: rgba(255, 255, 255, 0.692);
 }
-#competences {
-    height:86vh;
+#competences, #skills {
+    height:87.5vh;
     margin-right:1vw;
     padding-left:1vw;
-    padding-top:2vh;
+    padding-top:0.5vh;
     background-color: rgba(255, 255, 255, 0.692);
 }
 footer {
@@ -102,3 +103,4 @@ footer {
 .hidden {
     display: none;
 }
+
