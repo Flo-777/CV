@@ -78,10 +78,12 @@ ol li {
     max-width:55vw;
     padding-left:1vw;
     padding-top:0.5vh;
+    margin-right:1vw;
     background-color: rgba(255, 255, 255, 0.692);
 }
 #competences, #skills {
     height:87.5vh;
+     max-width:40vw;
     margin-right:1vw;
     padding-left:1vw;
     padding-top:0.5vh;
